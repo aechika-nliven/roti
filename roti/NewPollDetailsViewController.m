@@ -26,11 +26,15 @@
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
     [dateFormat setDateFormat:@"MM/dd/yyyy"];
     NSString *dateString = [dateFormat stringFromDate:today];
-    //NSLog(@"date: %@", dateString);
     self.txtDate.text = dateString;
+    self.txtMeetingName.text = @"Meeting";
     
     self.meetingModel = [[MeetingModel alloc]init];
     [[PollModel getCurrent].meetings addObject:self.meetingModel];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [self.txtMeetingName becomeFirstResponder];
 }
 
 - (IBAction)cancelNewPollClicked:(id)sender {
