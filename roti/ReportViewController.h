@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ReportViewController : UIViewController
+@interface ReportViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 - (IBAction)doneClicked:(id)sender;
 
 @end

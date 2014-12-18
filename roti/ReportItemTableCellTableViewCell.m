@@ -14,8 +14,8 @@
     self.txtMeetingName.text = meetingModel.name;
     self.txtMeetingDate.text = meetingModel.date;
     
-    self.txtNumberOfVotes.text = [NSString stringWithFormat:@"%lu", (unsigned long)[meetingModel.votes count]];
-    self.txtAverage.text = [NSString stringWithFormat:@"%1.2f", [meetingModel calculateAverage]];
+    self.txtNumberOfVotes.text = [NSString stringWithFormat:@"Votes: %lu", (unsigned long)[meetingModel.votes count]];
+    self.txtAverage.text = [NSString stringWithFormat:@"Average %1.2f", [meetingModel calculateAverage]];
 
 }
 

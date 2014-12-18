@@ -40,6 +40,20 @@
     return cell;
 }
 
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return ((UITableViewHeaderFooterView *) [tableView dequeueReusableCellWithIdentifier:@"meetingItemHeader"]).frame.size.height;
+}
+
+
+-(UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    UITableViewHeaderFooterView *header = [tableView dequeueReusableCellWithIdentifier:@"meetingItemHeader"];
+    return header;
+
+}
+
 - (IBAction)doneClicked:(id)sender {
     [self dismissViewControllerAnimated:YES completion:^{
         
