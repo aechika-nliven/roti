@@ -15,5 +15,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblCount;
 @property (weak, nonatomic) IBOutlet UILabel *txtMeetingName;
 @property (weak, nonatomic) IBOutlet UILabel *txtMeetingDate;
+@property (weak, nonatomic) IBOutlet UIImageView *imgOverallResult;
 
 @end

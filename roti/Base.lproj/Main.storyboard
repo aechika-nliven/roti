@@ -236,12 +236,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgPollLevel0" translatesAutoresizingMaskIntoConstraints="NO" id="bnu-oh-nGs" userLabel="img+2">
+                                <rect key="frame" x="314" y="187" width="128" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgPollLevel0" translatesAutoresizingMaskIntoConstraints="NO" id="Lj3-gx-b3w" userLabel="img+1">
+                                <rect key="frame" x="314" y="336" width="128" height="128"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgPollLevel0" translatesAutoresizingMaskIntoConstraints="NO" id="WXR-s3-5aR" userLabel="img+0">
                                 <rect key="frame" x="314" y="488" width="128" height="128"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgPollLevel0" translatesAutoresizingMaskIntoConstraints="NO" id="J0t-PD-pbU" userLabel="img-1">
+                                <rect key="frame" x="314" y="637" width="128" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgPollLevel0" translatesAutoresizingMaskIntoConstraints="NO" id="F82-NB-Adl" userLabel="img-2">
+                                <rect key="frame" x="314" y="789" width="128" height="128"/>
+                            </imageView>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EqA-Zw-ZS0" userLabel="button+2">
                                 <rect key="frame" x="314" y="187" width="128" height="128"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -251,7 +262,6 @@
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUr-EY-R7S" userLabel="button+1">
                                 <rect key="frame" x="314" y="336" width="128" height="128"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -270,7 +280,6 @@
                             </button>
                             <button opaque="NO" tag="-1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5Q-jI-7F1" userLabel="button-1">
                                 <rect key="frame" x="314" y="637" width="128" height="128"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -280,7 +289,6 @@
                             </button>
                             <button opaque="NO" tag="-2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Omz-ZS-IQS" userLabel="button-2">
                                 <rect key="frame" x="314" y="789" width="128" height="128"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -416,10 +424,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgPollLevel0" translatesAutoresizingMaskIntoConstraints="NO" id="fJn-Kh-k5l" userLabel="imgResult">
+                                <rect key="frame" x="250" y="358" width="278" height="276"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="imgOverallResult" destination="fJn-Kh-k5l" id="Ed1-cq-uw1"/>
                         <outlet property="lblAverage" destination="1eG-rT-RiG" id="4uB-xG-jZn"/>
                         <outlet property="lblCount" destination="1P5-Yn-eZh" id="zHF-FB-evh"/>
                         <outlet property="txtMeetingDate" destination="Iai-BG-i8a" id="upa-kA-Y8g"/>
