@@ -88,7 +88,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Results" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bcz-zd-1qd">
-                                                    <rect key="frame" x="480" y="22" width="140" height="21"/>
+                                                    <rect key="frame" x="428" y="22" width="140" height="21"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
@@ -115,20 +115,24 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Number Votes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vvg-8Z-D38">
-                                                    <rect key="frame" x="482" y="6" width="149" height="21"/>
+                                                    <rect key="frame" x="428" y="7" width="126" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Average" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ybc-kE-m5R">
-                                                    <rect key="frame" x="482" y="34" width="149" height="21"/>
+                                                    <rect key="frame" x="428" y="35" width="149" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cef-Sq-D7a">
+                                                    <rect key="frame" x="585" y="7" width="50" height="50"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="imgResult" destination="Cef-Sq-D7a" id="f0m-8O-SZE"/>
                                             <outlet property="txtAverage" destination="Ybc-kE-m5R" id="2pa-qQ-bQo"/>
                                             <outlet property="txtMeetingDate" destination="PPP-HW-hKG" id="MQH-pu-xA3"/>
                                             <outlet property="txtMeetingName" destination="wrs-9H-PxG" id="Kst-PV-dcj"/>
@@ -239,19 +243,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgPollLevel0" translatesAutoresizingMaskIntoConstraints="NO" id="bnu-oh-nGs" userLabel="img+2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PollLevel+2" translatesAutoresizingMaskIntoConstraints="NO" id="bnu-oh-nGs" userLabel="img+2">
                                 <rect key="frame" x="314" y="187" width="128" height="128"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgPollLevel0" translatesAutoresizingMaskIntoConstraints="NO" id="Lj3-gx-b3w" userLabel="img+1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PollLevel+1" translatesAutoresizingMaskIntoConstraints="NO" id="Lj3-gx-b3w" userLabel="img+1">
                                 <rect key="frame" x="314" y="336" width="128" height="128"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgPollLevel0" translatesAutoresizingMaskIntoConstraints="NO" id="WXR-s3-5aR" userLabel="img+0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PollLevel0" translatesAutoresizingMaskIntoConstraints="NO" id="WXR-s3-5aR" userLabel="img+0">
                                 <rect key="frame" x="314" y="488" width="128" height="128"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgPollLevel0" translatesAutoresizingMaskIntoConstraints="NO" id="J0t-PD-pbU" userLabel="img-1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PollLevel-1" translatesAutoresizingMaskIntoConstraints="NO" id="J0t-PD-pbU" userLabel="img-1">
                                 <rect key="frame" x="314" y="637" width="128" height="128"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgPollLevel0" translatesAutoresizingMaskIntoConstraints="NO" id="F82-NB-Adl" userLabel="img-2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PollLevel-2" translatesAutoresizingMaskIntoConstraints="NO" id="F82-NB-Adl" userLabel="img-2">
                                 <rect key="frame" x="314" y="789" width="128" height="128"/>
                             </imageView>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EqA-Zw-ZS0" userLabel="button+2">
@@ -447,6 +451,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="PollLevel+1" width="75" height="75"/>
+        <image name="PollLevel+2" width="75" height="75"/>
+        <image name="PollLevel-1" width="75" height="75"/>
+        <image name="PollLevel-2" width="75" height="75"/>
+        <image name="PollLevel0" width="75" height="75"/>
         <image name="imgPollLevel0" width="75" height="75"/>
         <image name="splash" width="504" height="417"/>
     </resources>

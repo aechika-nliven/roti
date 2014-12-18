@@ -16,5 +16,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *txtMeetingDate;
 @property (weak, nonatomic) IBOutlet UILabel *txtNumberOfVotes;
 @property (weak, nonatomic) IBOutlet UILabel *txtAverage;
+@property (weak, nonatomic) IBOutlet UIImageView *imgResult;
 
 @end

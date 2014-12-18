@@ -36,19 +36,19 @@
     NSString *assetName = @"";
     
     if (average >= 1.5) {
-        assetName = @"imgPollLevel2";
+        assetName = @"PollLevel+2";
     }
     else if (average >= 0.5 && average < 1.5) {
-        assetName = @"imgPollLevel1";
+        assetName = @"PollLevel+1";
     }
     else if (average >= -0.5 && average < 0.5) {
-        assetName = @"imgPollLevel0";
+        assetName = @"PollLevel0";
     }
     else if (average >= -1.5 && average < -0.5) {
-        assetName = @"imgPollLevel-1";
+        assetName = @"PollLevel-1";
     }
     else if (average < -1.5) {
-        assetName = @"imgPollLevel-2";
+        assetName = @"PollLevel-2";
     }
 
     [self.imgOverallResult setImage:[UIImage imageNamed:assetName]];
