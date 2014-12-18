@@ -14,5 +14,6 @@
 @property NSString* date;
 @property NSMutableArray* votes;
 
+- (double)calculateAverage;
 
 @end

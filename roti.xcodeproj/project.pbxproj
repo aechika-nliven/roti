@@ -11,6 +11,8 @@
 		AD0584981A423A740018DCFF /* PollModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0584971A423A740018DCFF /* PollModel.m */; };
 		AD05849B1A4252670018DCFF /* NewPollDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD05849A1A4252670018DCFF /* NewPollDetailsViewController.m */; };
 		AD05849E1A4257340018DCFF /* MeetingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD05849D1A4257340018DCFF /* MeetingModel.m */; };
+		AD0584A31A425E390018DCFF /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0584A21A425E390018DCFF /* ReportViewController.m */; };
+		AD0584A61A425FB90018DCFF /* ReportItemTableCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0584A51A425FB90018DCFF /* ReportItemTableCellTableViewCell.m */; };
 		ADD41C761A422C5A005B72A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD41C751A422C5A005B72A3 /* main.m */; };
 		ADD41C791A422C5A005B72A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD41C781A422C5A005B72A3 /* AppDelegate.m */; };
 		ADD41C7C1A422C5A005B72A3 /* VotingController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD41C7B1A422C5A005B72A3 /* VotingController.m */; };
@@ -39,6 +41,10 @@
 		AD05849A1A4252670018DCFF /* NewPollDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPollDetailsViewController.m; sourceTree = "<group>"; };
 		AD05849C1A4257340018DCFF /* MeetingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingModel.h; sourceTree = "<group>"; };
 		AD05849D1A4257340018DCFF /* MeetingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingModel.m; sourceTree = "<group>"; };
+		AD0584A11A425E390018DCFF /* ReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
+		AD0584A21A425E390018DCFF /* ReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
+		AD0584A41A425FB90018DCFF /* ReportItemTableCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportItemTableCellTableViewCell.h; sourceTree = "<group>"; };
+		AD0584A51A425FB90018DCFF /* ReportItemTableCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportItemTableCellTableViewCell.m; sourceTree = "<group>"; };
 		ADD41C701A422C5A005B72A3 /* roti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = roti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD41C741A422C5A005B72A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADD41C751A422C5A005B72A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,6 +98,10 @@
 				ADD41C7B1A422C5A005B72A3 /* VotingController.m */,
 				AD0584931A4239650018DCFF /* IndividualResultsViewController.h */,
 				AD0584941A4239650018DCFF /* IndividualResultsViewController.m */,
+				AD0584A11A425E390018DCFF /* ReportViewController.h */,
+				AD0584A21A425E390018DCFF /* ReportViewController.m */,
+				AD0584A41A425FB90018DCFF /* ReportItemTableCellTableViewCell.h */,
+				AD0584A51A425FB90018DCFF /* ReportItemTableCellTableViewCell.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -259,9 +269,11 @@
 				AD0584981A423A740018DCFF /* PollModel.m in Sources */,
 				ADD41C791A422C5A005B72A3 /* AppDelegate.m in Sources */,
 				AD0584951A4239650018DCFF /* IndividualResultsViewController.m in Sources */,
+				AD0584A31A425E390018DCFF /* ReportViewController.m in Sources */,
 				AD05849E1A4257340018DCFF /* MeetingModel.m in Sources */,
 				ADD41C761A422C5A005B72A3 /* main.m in Sources */,
 				AD05849B1A4252670018DCFF /* NewPollDetailsViewController.m in Sources */,
+				AD0584A61A425FB90018DCFF /* ReportItemTableCellTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
