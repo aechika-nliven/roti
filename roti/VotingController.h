@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *txtMeetingDate;
 @property (weak, nonatomic) IBOutlet UILabel *txtMeetingName;
 
+
 - (IBAction)voteClicked:(id)sender;
 
 @end
